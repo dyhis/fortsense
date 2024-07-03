@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aimkey.h" />
+    <ClInclude Include="auth.h" />
+    <ClInclude Include="cache.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="driver.hpp" />
+    <ClInclude Include="esp.hpp" />
+    <ClInclude Include="fonts.h" />
+    <ClInclude Include="grdv\binary\bytes.h" />
+    <ClInclude Include="grdv\binary\dropper.h" />
+    <ClInclude Include="grdv\global.h" />
+    <ClInclude Include="grdv\hde\hde64.h" />
+    <ClInclude Include="grdv\hde\table64.h" />
+    <ClInclude Include="grdv\resource.h" />
+    <ClInclude Include="grdv\utils\ntdll.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\ImGui MISC\animations.h" />
+    <ClInclude Include="imgui\ImGui MISC\notify.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="include\cpr\accept_encoding.h" />
+    <ClInclude Include="include\cpr\api.h" />
+    <ClInclude Include="include\cpr\async.h" />
+    <ClInclude Include="include\cpr\async_wrapper.h" />
+    <ClInclude Include="include\cpr\auth.h" />
+    <ClInclude Include="include\cpr\bearer.h" />
+    <ClInclude Include="include\cpr\body.h" />
+    <ClInclude Include="include\cpr\buffer.h" />
+    <ClInclude Include="include\cpr\callback.h" />
+    <ClInclude Include="include\cpr\cert_info.h" />
+    <ClInclude Include="include\cpr\connect_timeout.h" />
+    <ClInclude Include="include\cpr\cookies.h" />
+    <ClInclude Include="include\cpr\cpr.h" />
+    <ClInclude Include="include\cpr\cprtypes.h" />
+    <ClInclude Include="include\cpr\curlholder.h" />
+    <ClInclude Include="include\cpr\curlmultiholder.h" />
+    <ClInclude Include="include\cpr\curl_container.h" />
+    <ClInclude Include="include\cpr\error.h" />
+    <ClInclude Include="include\cpr\file.h" />
+    <ClInclude Include="include\cpr\filesystem.h" />
+    <ClInclude Include="include\cpr\http_version.h" />
+    <ClInclude Include="include\cpr\interceptor.h" />
+    <ClInclude Include="include\cpr\interface.h" />
+    <ClInclude Include="include\cpr\limit_rate.h" />
+    <ClInclude Include="include\cpr\local_port.h" />
+    <ClInclude Include="include\cpr\local_port_range.h" />
+    <ClInclude Include="include\cpr\low_speed.h" />
+    <ClInclude Include="include\cpr\multipart.h" />
+    <ClInclude Include="include\cpr\multiperform.h" />
+    <ClInclude Include="include\cpr\parameters.h" />
+    <ClInclude Include="include\cpr\payload.h" />
+    <ClInclude Include="include\cpr\proxies.h" />
+    <ClInclude Include="include\cpr\proxyauth.h" />
+    <ClInclude Include="include\cpr\range.h" />
+    <ClInclude Include="include\cpr\redirect.h" />
+    <ClInclude Include="include\cpr\reserve_size.h" />
+    <ClInclude Include="include\cpr\resolve.h" />
+    <ClInclude Include="include\cpr\response.h" />
+    <ClInclude Include="include\cpr\session.h" />
+    <ClInclude Include="include\cpr\singleton.h" />
+    <ClInclude Include="include\cpr\ssl_ctx.h" />
+    <ClInclude Include="include\cpr\ssl_options.h" />
+    <ClInclude Include="include\cpr\status_codes.h" />
+    <ClInclude Include="include\cpr\threadpool.h" />
+    <ClInclude Include="include\cpr\timeout.h" />
+    <ClInclude Include="include\cpr\unix_socket.h" />
+    <ClInclude Include="include\cpr\user_agent.h" />
+    <ClInclude Include="include\cpr\util.h" />
+    <ClInclude Include="include\cpr\verbose.h" />
+    <ClInclude Include="include\curl\curl.h" />
+    <ClInclude Include="include\curl\curlver.h" />
+    <ClInclude Include="include\curl\easy.h" />
+    <ClInclude Include="include\curl\header.h" />
+    <ClInclude Include="include\curl\mprintf.h" />
+    <ClInclude Include="include\curl\multi.h" />
+    <ClInclude Include="include\curl\options.h" />
+    <ClInclude Include="include\curl\stdcheaders.h" />
+    <ClInclude Include="include\curl\system.h" />
+    <ClInclude Include="include\curl\typecheck-gcc.h" />
+    <ClInclude Include="include\curl\urlapi.h" />
+    <ClInclude Include="include\curl\websockets.h" />
+    <ClInclude Include="include\json\allocator.h" />
+    <ClInclude Include="include\json\assertions.h" />
+    <ClInclude Include="include\json\config.h" />
+    <ClInclude Include="include\json\forwards.h" />
+    <ClInclude Include="include\json\json.h" />
+    <ClInclude Include="include\json\json_features.h" />
+    <ClInclude Include="include\json\json_tool.h" />
+    <ClInclude Include="include\json\reader.h" />
+    <ClInclude Include="include\json\value.h" />
+    <ClInclude Include="include\json\version.h" />
+    <ClInclude Include="include\json\writer.h" />
+    <ClInclude Include="logo.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mapper.h" />
+    <ClInclude Include="OVERLAY.h" />
+    <ClInclude Include="protect\antiDbg.h" />
+    <ClInclude Include="protect\anti_vm.h" />
+    <ClInclude Include="protect\auth.hpp" />
+    <ClInclude Include="protect\blowfish\blowfish.h" />
+    <ClInclude Include="protect\lazy.h" />
+    <ClInclude Include="protect\obfuscator.hpp" />
+    <ClInclude Include="protect\process.h" />
+    <ClInclude Include="protect\SDK\keygen64.h" />
+    <ClInclude Include="protect\SDK\obsidium.h" />
+    <ClInclude Include="protect\SDK\obsidium64.h" />
+    <ClInclude Include="protect\skCrypt.h" />
+    <ClInclude Include="protect\xorstr.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="shit.h" />
+    <ClInclude Include="SKD.h" />
+    <ClInclude Include="stuff.h" />
+    <ClInclude Include="xor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="grdv\exploit\pe.cpp" />
+    <ClCompile Include="grdv\exploit\swind2.cpp" />
+    <ClCompile Include="grdv\hde\hde64.c" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="include\cpr\accept_encoding.cpp" />
+    <ClCompile Include="include\cpr\async.cpp" />
+    <ClCompile Include="include\cpr\auth.cpp" />
+    <ClCompile Include="include\cpr\bearer.cpp" />
+    <ClCompile Include="include\cpr\callback.cpp" />
+    <ClCompile Include="include\cpr\cert_info.cpp" />
+    <ClCompile Include="include\cpr\cookies.cpp" />
+    <ClCompile Include="include\cpr\cprtypes.cpp" />
+    <ClCompile Include="include\cpr\curlholder.cpp" />
+    <ClCompile Include="include\cpr\curlmultiholder.cpp" />
+    <ClCompile Include="include\cpr\curl_container.cpp" />
+    <ClCompile Include="include\cpr\error.cpp" />
+    <ClCompile Include="include\cpr\file.cpp" />
+    <ClCompile Include="include\cpr\interceptor.cpp" />
+    <ClCompile Include="include\cpr\multipart.cpp" />
+    <ClCompile Include="include\cpr\multiperform.cpp" />
+    <ClCompile Include="include\cpr\parameters.cpp" />
+    <ClCompile Include="include\cpr\payload.cpp" />
+    <ClCompile Include="include\cpr\proxies.cpp" />
+    <ClCompile Include="include\cpr\proxyauth.cpp" />
+    <ClCompile Include="include\cpr\redirect.cpp" />
+    <ClCompile Include="include\cpr\response.cpp" />
+    <ClCompile Include="include\cpr\session.cpp" />
+    <ClCompile Include="include\cpr\ssl_ctx.cpp" />
+    <ClCompile Include="include\cpr\threadpool.cpp" />
+    <ClCompile Include="include\cpr\timeout.cpp" />
+    <ClCompile Include="include\cpr\unix_socket.cpp" />
+    <ClCompile Include="include\cpr\util.cpp" />
+    <ClCompile Include="include\json\json_reader.cpp" />
+    <ClCompile Include="include\json\json_value.cpp" />
+    <ClCompile Include="include\json\json_writer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="protect\blowfish\blowfish.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Driver\deviceio.asm">
+      <FileType>Document</FileType>
+    </MASM>
+    <None Include="include\curl\Makefile.am" />
+    <None Include="include\curl\Makefile.in" />
+    <None Include="include\json\json_valueiterator.inl" />
+    <None Include="protect\SDK\keygen64.dll" />
+    <None Include="protect\SDK\obsidium64.def" />
+    <None Include="protect\SDK\obsidium64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="keygen64.lib" />
+    <Library Include="libcurl.lib" />
+    <Library Include="obsidium64.lib" />
+    <Library Include="protect\SDK\obsidium64.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="protect\SDK\obsidiumlib.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="include\cpr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Slotted.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\Firefox_logo,_2019.svg.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{90ce93bf-43d0-4e27-acad-d5899e5f41ba}</ProjectGuid>
+    <RootNamespace>Slotted</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>NVIDIA Control Panel</TargetName>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>firefox</TargetName>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\;C:\Users\Raccy\Desktop\emulate.cc\Slotted\include\;C:\Users\Raccy\Desktop\emulate.cc\Slotted\include\curl;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

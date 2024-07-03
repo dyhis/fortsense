@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Front End">
+      <UniqueIdentifier>{c806e919-6211-4e06-b8ee-4e1d67957609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End">
+      <UniqueIdentifier>{3f7ccb72-3472-4c85-9f71-1f1d9cb858e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Render">
+      <UniqueIdentifier>{db8e9dbe-8ed5-4313-b657-a6a6e7e00723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Render\Imgui">
+      <UniqueIdentifier>{24289e9f-14f3-410a-b601-4091190fcdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Protection">
+      <UniqueIdentifier>{70c5c249-5307-4b27-bb20-a4b58ca4a316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Front End\Cheat">
+      <UniqueIdentifier>{0ad03442-26b5-4e32-a14d-f633a7aa8552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Front End\Functions">
+      <UniqueIdentifier>{8f1da17f-d284-4c9f-a2f3-e129be1dd914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Defs">
+      <UniqueIdentifier>{7b3b14aa-d58e-4e96-ad3a-c7bde5f7765a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Bytes">
+      <UniqueIdentifier>{70fe51a1-e0dd-43d2-911a-92ebca51ad4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Front End\Driver">
+      <UniqueIdentifier>{05348121-64c9-45f8-888a-7492fd608bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\Auth">
+      <UniqueIdentifier>{bb7b9b24-4ca8-4394-b00f-db1486e77c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back End\prots">
+      <UniqueIdentifier>{f271e0a6-c04a-4b6c-9711-7ea1fe301300}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\ImGui MISC\animations.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Front End\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Back End\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>Back End\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.hpp">
+      <Filter>Front End\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>Front End\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Front End\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="SKD.h">
+      <Filter>Front End\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Back End\Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Back End\Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Back End\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>Back End\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\xorstr.h">
+      <Filter>Back End\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\skCrypt.h">
+      <Filter>Back End\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\lazy.h">
+      <Filter>Back End\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="aimkey.h">
+      <Filter>Back End\Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>Front End\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="shit.h">
+      <Filter>Back End\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Back End\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="menu\config.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuBackground.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuControls.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\MenuFonts.h">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Back End\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Back End\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="prot.h">
+      <Filter>Back End\prots</Filter>
+    </ClInclude>
+    <ClInclude Include="vxlib.h">
+      <Filter>Back End\prots</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Back End\Render\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="prot.cpp">
+      <Filter>Back End\prots</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Driver\deviceio.asm">
+      <Filter>Front End\Driver</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>Back End\Auth</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Back End\Auth</Filter>
+    </Library>
+    <Library Include="vxlib64.lib">
+      <Filter>Back End\prots</Filter>
+    </Library>
+    <Library Include="vxsyslib64.lib">
+      <Filter>Back End\prots</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Slotted.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\y9copnvDv_s.ico" />
+  </ItemGroup>
+</Project>
